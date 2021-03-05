@@ -46,6 +46,7 @@ public class SchemaEvolutionExamples {
             System.out.println("Customer V2 = " + customerV2read.toString());
         }
 
+        dataFileReaderV2.close();
         System.out.println("Backward schema evolution successful\n\n\n");
 
 
@@ -81,6 +82,7 @@ public class SchemaEvolutionExamples {
             System.out.println("Customer V1 = " + customerV1Read.toString());
         }
 
+        dataFileReader.close();
         System.out.println("Forward schema evolution successful");
 
     }

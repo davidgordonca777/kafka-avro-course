@@ -14,6 +14,7 @@ import java.io.IOException;
 public class GenericRecordExamples {
 
     public static void main(String[] args) {
+        System.out.println("hello world");
 
         Schema.Parser parser = new Schema.Parser();
         Schema schema = parser.parse("{\n" +
